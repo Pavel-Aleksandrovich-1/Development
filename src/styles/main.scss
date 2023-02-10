@@ -775,13 +775,13 @@ img {
 		background-size: contain;
 		z-index: 0;
 	}
-&__gym{
-	background-image: url(../images/gym.png);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	z-index: 0;
-}
+	&__gym {
+		background-image: url(../images/gym.png);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		z-index: 0;
+	}
 
 	&__block {
 		display: flex;
@@ -1871,6 +1871,25 @@ option i {
 
 .modal-select-menu {
 	width: 100%;
+}
+
+.modal-close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background-image: url(../images/close.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: block;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	@media (max-width: $r_tab_768) {
+		top: 10px;
+		right: 10px;
+	}
 }
 
 .modal-select-menu .modal-select-btn {
