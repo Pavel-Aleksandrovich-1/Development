@@ -2125,6 +2125,7 @@ option i {
 		background-color: rgba(0, 0, 0, 0.6);
 		transition: $link-transition-time;
 		overflow: auto;
+		z-index: 1;
 	}
 
 	.menu__body.active {
